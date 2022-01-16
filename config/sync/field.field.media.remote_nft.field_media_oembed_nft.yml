@@ -1,0 +1,19 @@
+uuid: 9e784746-f6e1-4ba7-8de4-d9ba21392b87
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_oembed_nft
+    - media.type.remote_nft
+id: media.remote_nft.field_media_oembed_nft
+field_name: field_media_oembed_nft
+entity_type: media
+bundle: remote_nft
+label: 'NFT URL'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -9,15 +9,45 @@ Requirements:
 
 ## Usage
 
-```
+First, install the pre-configured Drupal site.
+
+```bash
 git clone THIS-REPO
 lando composer install -o --ignore-platform-req=ext-gmp
-lando drush si --existing-config -y
+lando drush site-install -y
+lando drush cache-rebuild -y
+lando drush config-import -y
 lando drush upwd admin admin
 lando drush uli
 ```
 
+Finally, create a page and import some NFTs in
+[Admin > Content > Add content](https://drupalnft.lndo.site/node/add/page).
+
 Have fun buiDling!
+
+## Mint
+
+Set your NFTPort.xyz API key
+[in backoffice (Admin > Config > Media > NFTPort)](https://drupalnft.lndo.site/admin/config/nft/nftport):
+
+```bash
+API Key: 'ENTER-YOUR-KEY'
+```
+
+Go to Admin > Content.
+
+Click on the dropdown select in the last column and select the "Mint" operation.
+
+## Known issues
+
+You might have issue retrieving assets from OpensSea.io.
+
+If so, try to set the API key in `.env` file at project's root:
+
+```bash
+opensea_api_key='ENTER-YOUR-KEY'
+```
 
 ---
 

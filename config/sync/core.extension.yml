@@ -6,15 +6,26 @@ module:
   dblog: 0
   dynamic_page_cache: 0
   field: 0
+  file: 0
   filter: 0
+  image: 0
+  media: 0
+  media_library: 0
+  nft_media: 0
+  nft_mint: 0
+  nft_oembed: 0
+  nftport: 0
   node: 0
+  oembed_providers: 0
   page_cache: 0
   path_alias: 0
+  serialization: 0
   system: 0
   text: 0
   toolbar: 0
   update: 0
   user: 0
+  views: 10
   minimal: 1000
 theme:
   claro: 0

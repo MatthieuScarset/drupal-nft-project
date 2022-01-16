@@ -1,0 +1,17 @@
+uuid: 6a7b867c-bc30-40f9-b310-6942cad40cb2
+langcode: en
+status: true
+dependencies:
+  module:
+    - nft_mint
+third_party_settings:
+  nft_mint:
+    mintable: 1
+    minter: nftport_easy_minting
+name: Page
+type: page
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

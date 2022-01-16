@@ -1,0 +1,29 @@
+uuid: b8441087-8595-4c18-8a1c-52d5bb5806ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nfts
+    - media.type.remote_nft
+    - node.type.page
+id: node.page.field_nfts
+field_name: field_nfts
+entity_type: node
+bundle: page
+label: NFTs
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      remote_nft: remote_nft
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

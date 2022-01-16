@@ -1,0 +1,5 @@
+key: 'GET-YOUR-KEY-https://www.nftport.xyz/sign-up'
+url: 'https://api.nftport.xyz'
+version: v0
+account: '0xEe27673E55f7bEd7ccd8828756C73707CF77b1CF'
+method: file_url

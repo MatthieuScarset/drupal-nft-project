@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4a420415dc49eca72f5d69772aa11f0a",
+    "content-hash": "22bfc6ef1cbb0ad9c63e654bf79b3050",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1683,7 +1683,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/nft.git",
-                "reference": "27b01369d510619896fbc4ffe4b79c6eaf95cbd6"
+                "reference": "f5cda0526dec3ffd2f1f2925f2fc927b14d479be"
             },
             "require": {
                 "drupal/core": "^9",
@@ -1702,8 +1702,8 @@
                     "dev-1.0.x": "1.0.x-dev"
                 },
                 "drupal": {
-                    "version": "1.0.2+14-dev",
-                    "datestamp": "1642323147",
+                    "version": "1.0.2+15-dev",
+                    "datestamp": "1642323196",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -1749,8 +1749,8 @@
                     "dev-1.0.x": "1.0.x-dev"
                 },
                 "drupal": {
-                    "version": "1.0.2+14-dev",
-                    "datestamp": "1642323147",
+                    "version": "1.0.2+15-dev",
+                    "datestamp": "1642323196",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -8417,9 +8417,6 @@
             "require": {
                 "php": "^7.1 || ^8.0"
             },
-            "replace": {
-                "myclabs/deep-copy": "self.version"
-            },
             "require-dev": {
                 "doctrine/collections": "^1.0",
                 "doctrine/common": "^2.6",
@@ -10988,5 +10985,5 @@
         "php": ">=7.4"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.2.0"
 }

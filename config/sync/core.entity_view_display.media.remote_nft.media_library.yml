@@ -1,0 +1,30 @@
+uuid: b6a705f0-6181-494c-9bae-1de931f61748
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.media_library
+    - field.field.media.remote_nft.field_media_oembed_nft
+    - image.style.medium
+    - media.type.remote_nft
+  module:
+    - image
+id: media.remote_nft.media_library
+targetEntityType: media
+bundle: remote_nft
+mode: media_library
+content:
+  thumbnail:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: medium
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  field_media_oembed_nft: true
+  name: true
+  uid: true

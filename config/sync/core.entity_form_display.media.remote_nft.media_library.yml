@@ -1,0 +1,26 @@
+uuid: 8ccfdf0e-28c5-47a2-b69b-915e97575e1a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.media.media_library
+    - field.field.media.remote_nft.field_media_oembed_nft
+    - media.type.remote_nft
+id: media.remote_nft.media_library
+targetEntityType: media
+bundle: remote_nft
+mode: media_library
+content:
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_media_oembed_nft: true
+  status: true
+  uid: true

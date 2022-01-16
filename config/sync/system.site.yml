@@ -1,14 +1,14 @@
 _core:
   default_config_hash: l58O_yEXSo-SeJi19LXdzTU1tNJG3lmnIhCitRkM1tk
 langcode: en
-uuid: 3418a735-a7d0-46f2-9135-190d839664d0
-name: 'Drush Site-Install'
-mail: admin@example.com
-slogan: ''
+uuid: 0x000000-0000-0000-0000-000000000000
+name: 'Drupal NFT'
+mail: nft@master.com
+slogan: 'Project template to play with non-fungible tokens.'
 page:
   403: ''
   404: ''
-  front: /user/login
+  front: /node
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en

@@ -1,0 +1,36 @@
+uuid: 5ea7d575-d009-4e3c-a487-c3ea4ee16887
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.page.body
+    - field.field.node.page.field_nfts
+    - image.style.large
+    - node.type.page
+  module:
+    - media
+    - text
+    - user
+id: node.page.default
+targetEntityType: node
+bundle: page
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_nfts:
+    type: media_thumbnail
+    label: above
+    settings:
+      image_link: media
+      image_style: large
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  links: true
