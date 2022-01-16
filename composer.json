@@ -21,6 +21,8 @@
         "cweagans/composer-patches": "^1.7",
         "drupal/core-composer-scaffold": "^9.3",
         "drupal/core-recommended": "^9.0",
+        "drupal/nft": "dev-1.0.x",
+        "drupal/nftport": "dev-1.0.x",
         "drupal/oembed_providers": "^2.0",
         "drush/drush": "^10.6",
         "league/commonmark": "^1.0",

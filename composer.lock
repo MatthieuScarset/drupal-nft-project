@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a38829dada255ea6ce1f53ffb1295651",
+    "content-hash": "739b11e82a784f0e9067019d93ba1aef",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1676,6 +1676,144 @@
                 "source": "https://github.com/drupal/core-recommended/tree/9.3.2"
             },
             "time": "2022-01-05T02:55:30+00:00"
+        },
+        {
+            "name": "drupal/nft",
+            "version": "dev-1.0.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/nft.git",
+                "reference": "27b01369d510619896fbc4ffe4b79c6eaf95cbd6"
+            },
+            "require": {
+                "drupal/core": "^9",
+                "drupal/oembed_providers": "^2.0",
+                "sc0vu/web3.php": "dev-master",
+                "web3p/ethereum-tx": "dev-master"
+            },
+            "require-dev": {
+                "drupal/nft_mint": "*",
+                "drupal/nft_oembed": "*",
+                "drupal/oembed_providers": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.0.x": "1.0.x-dev"
+                },
+                "drupal": {
+                    "version": "1.0.2+14-dev",
+                    "datestamp": "1642323147",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Matthieu Scarset",
+                    "homepage": "https://matthieuscarset.com",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Allows site builders and developers to integrate NFT into Drupal.",
+            "homepage": "https://drupal.org/project/nft",
+            "keywords": [
+                "Blockchain",
+                "Drupal",
+                "Ethereum",
+                "Media",
+                "NFT",
+                "oEmbed"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/nft",
+                "issues": "https://www.drupal.org/project/issues/nft"
+            }
+        },
+        {
+            "name": "drupal/nft_mint",
+            "version": "dev-1.0.x",
+            "require": {
+                "drupal/core": "^9",
+                "drupal/nft": "^1"
+            },
+            "type": "metapackage",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.0.x": "1.0.x-dev"
+                },
+                "drupal": {
+                    "version": "1.0.2+14-dev",
+                    "datestamp": "1642323147",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "matthieuscarset",
+                    "homepage": "https://www.drupal.org/user/3471281"
+                }
+            ],
+            "description": "Mint NFT from Drupal.",
+            "homepage": "https://www.drupal.org/project/nft",
+            "support": {
+                "source": "https://git.drupalcode.org/project/nft"
+            }
+        },
+        {
+            "name": "drupal/nftport",
+            "version": "dev-1.0.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/nftport.git",
+                "reference": "f63d0098b511cc7de57921c6809103532f9a3e1c"
+            },
+            "require": {
+                "drupal/core": "^9",
+                "drupal/nft_mint": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.0.x": "1.0.x-dev"
+                },
+                "drupal": {
+                    "version": "1.0.x-dev",
+                    "datestamp": "1642257335",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "matthieuscarset",
+                    "homepage": "https://www.drupal.org/user/3471281"
+                }
+            ],
+            "description": "Integrate Drupal with the NFTPort.xyz API.",
+            "homepage": "https://www.drupal.org/project/nftport",
+            "support": {
+                "source": "https://git.drupalcode.org/project/nftport"
+            }
         },
         {
             "name": "drupal/oembed_providers",
@@ -10847,6 +10985,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "drupal/nft": 20,
+        "drupal/nftport": 20,
         "sc0vu/web3.php": 20,
         "web3p/ethereum-tx": 20
     },
