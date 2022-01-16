@@ -29,4 +29,5 @@ module:
   minimal: 1000
 theme:
   claro: 0
+  nft_theme: 0
 profile: minimal

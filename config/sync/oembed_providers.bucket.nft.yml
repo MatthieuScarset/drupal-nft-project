@@ -6,10 +6,10 @@ _core:
   default_config_hash: FJZ-FlXjB9kBAay_zyGU4rspJLE22uBQgnuFQ7vLllI
 id: nft
 label: NFT
+description: 'Use non-fungible tokens as media.'
 providers:
   - Localhost
   - Etherscan
   - Polygon
   - OpenSea
   - Rarible
-description: 'Use non-fungible tokens as media.'

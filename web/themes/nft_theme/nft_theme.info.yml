@@ -1,0 +1,10 @@
+name: NFT Theme
+type: theme
+description: A custom theme based on Claro.
+package: nft
+version: VERSION
+base theme: claro
+core_version_requirement: ^9
+
+libraries:
+  - nft_theme/base

@@ -1,0 +1,22 @@
+uuid: 3ec5b8f5-49ef-40de-8bd5-6aa8ae5184f0
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - nft_theme
+_core:
+  default_config_hash: NjcxOBrPOiK5-38t56DwFBDVY4yer7YSlbRWXFuHe7A
+id: nft_theme_breadcrumbs
+theme: nft_theme
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

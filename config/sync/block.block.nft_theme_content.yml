@@ -1,0 +1,22 @@
+uuid: fff3b2eb-47bf-4894-bc43-1752d27a52e9
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - nft_theme
+_core:
+  default_config_hash: a0Yyx1GeyKarZ4T_yXQBR_ZFKnXiFLtxAb6gWLd8nr0
+id: nft_theme_content
+theme: nft_theme
+region: content
+weight: -2
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

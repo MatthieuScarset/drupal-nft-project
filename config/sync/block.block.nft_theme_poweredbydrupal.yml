@@ -1,0 +1,20 @@
+uuid: 8df1c07a-ee05-4ae4-93c2-39edab83b6ed
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - nft_theme
+id: nft_theme_poweredbydrupal
+theme: nft_theme
+region: content
+weight: -1
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal | Made with love by Matthieu'
+  label_display: '0'
+  provider: system
+visibility: {  }
