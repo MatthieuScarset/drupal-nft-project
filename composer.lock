@@ -1683,7 +1683,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/nft.git",
-                "reference": "f5cda0526dec3ffd2f1f2925f2fc927b14d479be"
+                "reference": "77b573e01995107640ccdf85cc75b5732ff909ca"
             },
             "require": {
                 "drupal/core": "^9",
@@ -1702,8 +1702,8 @@
                     "dev-1.0.x": "1.0.x-dev"
                 },
                 "drupal": {
-                    "version": "1.0.2+15-dev",
-                    "datestamp": "1642323196",
+                    "version": "1.0.2+17-dev",
+                    "datestamp": "1642333274",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -1749,8 +1749,8 @@
                     "dev-1.0.x": "1.0.x-dev"
                 },
                 "drupal": {
-                    "version": "1.0.2+15-dev",
-                    "datestamp": "1642323196",
+                    "version": "1.0.2+17-dev",
+                    "datestamp": "1642333274",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -1779,7 +1779,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/nftport.git",
-                "reference": "f63d0098b511cc7de57921c6809103532f9a3e1c"
+                "reference": "79768602ef35d1a734072b09ca464a07405affc2"
             },
             "require": {
                 "drupal/core": "^9",
@@ -1792,7 +1792,7 @@
                 },
                 "drupal": {
                     "version": "1.0.x-dev",
-                    "datestamp": "1642257335",
+                    "datestamp": "1642333291",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -8417,6 +8417,9 @@
             "require": {
                 "php": "^7.1 || ^8.0"
             },
+            "replace": {
+                "myclabs/deep-copy": "self.version"
+            },
             "require-dev": {
                 "doctrine/collections": "^1.0",
                 "doctrine/common": "^2.6",
@@ -10985,5 +10988,5 @@
         "php": ">=7.4"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.0.0"
 }
