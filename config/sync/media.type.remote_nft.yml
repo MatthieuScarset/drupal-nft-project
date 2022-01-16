@@ -1,0 +1,15 @@
+uuid: 566e982c-a87e-4cd0-9b52-e829549e9c51
+langcode: en
+status: true
+dependencies: {  }
+id: remote_nft
+label: NFT
+description: 'Use non-fungible tokens as media.'
+source: 'oembed:nft'
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_oembed_nft
+  thumbnails_directory: 'public://oembed_thumbnails/[date:custom:Y-m]'
+  providers: {  }
+field_map: {  }

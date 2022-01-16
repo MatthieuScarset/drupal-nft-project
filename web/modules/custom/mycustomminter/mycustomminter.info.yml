@@ -1,0 +1,8 @@
+name: "Custom minter example"
+type: module
+description: "How-to implement a custom minter."
+package: nft
+version: VERSION
+core_version_requirement: ^9
+dependencies:
+  - nft:nft_mint

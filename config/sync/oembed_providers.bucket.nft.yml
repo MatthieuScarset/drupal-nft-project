@@ -1,0 +1,15 @@
+uuid: 5dd05c18-4e16-45a4-bfc8-12b15cb0661d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: '-ChMDvyMRvK-wlPNSuHtYRjzGVfjzlFTp9a_QQlPKQ8'
+id: nft
+label: NFT
+description: 'Use non-fungible tokens as media.'
+providers:
+  - Localhost
+  - Etherscan
+  - Polygon
+  - OpenSea
+  - Rarible
