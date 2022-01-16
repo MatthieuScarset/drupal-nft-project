@@ -9,19 +9,20 @@ Requirements:
 
 ## Usage
 
-First, install the pre-configured Drupal site.
+First, start the beast:
 
 ```bash
 git clone THIS-REPO
 cd THIS-REPO
 cp .env.example .env
 cp web/sites/example.settings.local.php web/sites/default/settings.local.php
-```
-
-Then start:
-```bash
 lando start
 lando composer install -o --ignore-platform-req=ext-gmp
+```
+
+Then install the pre-configured Drupal site.
+
+```bash
 lando drush site-install --existing-config -y
 lando drush cache-rebuild -y
 lando drush config-import -y
@@ -31,7 +32,7 @@ lando drush user-login
 
 Create a page and import some NFTs:
 
-- Go to [Admin > Content > Add content](https://drupalnft.lndo.site/node/add/page).
+- Go to [Admin > Content > Add content](https://nfthack.lndo.site/node/add/page).
 - Add media in the field below title
 - Save
 - Enjoy the view...
@@ -41,7 +42,7 @@ Have fun buiDling!
 ## Mint
 
 Set your NFTPort.xyz API key
-[in backoffice (Admin > Config > Media > NFTPort)](https://drupalnft.lndo.site/admin/config/nft/nftport):
+[in backoffice (Admin > Config > Media > NFTPort)](https://nfthack.lndo.site/admin/config/nft/nftport):
 
 ```bash
 API Key: 'ENTER-YOUR-KEY'

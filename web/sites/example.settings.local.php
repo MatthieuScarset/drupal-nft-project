@@ -19,6 +19,8 @@ $databases['default']['default'] = [
   'password' => getenv('DB_PASSWORD') ?? '',
 ];
 
+$settings['config_sync_directory'] = '../config/sync';
+
 // Environments.
 $env = getenv('ENVIRONMENT') ?? 'local';
 
