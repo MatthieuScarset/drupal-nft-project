@@ -14,6 +14,8 @@ First, install the pre-configured Drupal site.
 ```bash
 git clone THIS-REPO
 cd THIS-REPO
+cp .env.example .env
+cp web/sites/example.settings.local.php web/sites/default/settings.local.php
 lando composer install -o --ignore-platform-req=ext-gmp
 lando drush site-install --existing-config -y
 lando drush cache-rebuild -y

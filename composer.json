@@ -82,6 +82,7 @@
                 "web-root": "web/"
             },
             "file-mapping": {
+                "[web-root]/sites/default/default.settings.php": false,
                 "[web-root]/sites/example.settings.local.php": false,
                 "[web-root]/sites/development.services.yml": false
             }
