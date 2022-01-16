@@ -1,7 +1,0 @@
-_core:
-  default_config_hash: LhtmHYbVXQ8ftXNpA5Nho6V2USOdUbFSm8quETv1sN0
-url: 'https://api.nftport.xyz'
-version: v0
-key: 3c302721-c077-479d-9864-7a1ee48353cf
-account: '0xEe27673E55f7bEd7ccd8828756C73707CF77b1CF'
-method: file_url
