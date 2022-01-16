@@ -12,8 +12,8 @@ Requirements:
 First, start the beast:
 
 ```bash
-git clone THIS-REPO
-cd THIS-REPO
+git clone git@github.com:MatthieuScarset/drupal-nft-project.git nfthack
+cd nfthack
 cp .env.example .env
 cp web/sites/example.settings.local.php web/sites/default/settings.local.php
 lando start
