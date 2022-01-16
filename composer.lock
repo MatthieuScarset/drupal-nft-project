@@ -1683,7 +1683,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/nft.git",
-                "reference": "3b3c6e0b56fafb2d45db4b8eaf8b2fa978478d37"
+                "reference": "fc3b41730c30568b7dd58dfe0eb853e21266cf9c"
             },
             "require": {
                 "drupal/core": "^9",
@@ -1702,8 +1702,8 @@
                     "dev-1.0.x": "1.0.x-dev"
                 },
                 "drupal": {
-                    "version": "1.0.2+18-dev",
-                    "datestamp": "1642341349",
+                    "version": "1.0.2+19-dev",
+                    "datestamp": "1642345956",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -1749,8 +1749,8 @@
                     "dev-1.0.x": "1.0.x-dev"
                 },
                 "drupal": {
-                    "version": "1.0.2+18-dev",
-                    "datestamp": "1642341349",
+                    "version": "1.0.2+19-dev",
+                    "datestamp": "1642345956",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
