@@ -1,12 +1,14 @@
 {
-    "name": "drupal-composer/drupal-project",
-    "description": "Project template for Drupal 9 projects with Composer",
+    "name": "matthieuscarset/drupal-nft-project",
+    "description": "A Drupal 9 project template to play with NFTs",
     "type": "project",
     "license": "GPL-2.0-or-later",
     "authors": [
         {
-            "name": "",
-            "role": ""
+            "name": "Matthieu Scarset",
+            "role": "developer",
+            "email": "m@matthieuscarset.com",
+            "homepage": "https://matthieuscarset.com/"
         }
     ],
     "repositories": [
@@ -78,6 +80,10 @@
         "drupal-scaffold": {
             "locations": {
                 "web-root": "web/"
+            },
+            "file-mapping": {
+                "[web-root]/sites/example.settings.local.php": false,
+                "[web-root]/sites/development.services.yml": false
             }
         },
         "installer-paths": {
@@ -104,7 +110,6 @@
         "patchLevel": {
             "drupal/core": "-p2"
         },
-        "patches": {
-        }
+        "patches": {}
     }
 }
