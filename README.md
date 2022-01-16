@@ -12,7 +12,7 @@ Requirements:
 First, start the beast:
 
 ```bash
-git clone git@github.com:MatthieuScarset/drupal-nft-project.git nfthack
+git clone https://github.com/MatthieuScarset/drupal-nft-project.git nfthack
 cd nfthack
 cp .env.example .env
 cp web/sites/example.settings.local.php web/sites/default/settings.local.php
