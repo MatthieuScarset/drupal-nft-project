@@ -1,6 +1,6 @@
 # Drupal NFT project
 
-This is a template to quickly test [the NFT module](https://drupal.org/project/nft).
+This is a template to quickly test the NFT module: [https://www.drupal.org/project/nft](https://drupal.org/project/nft)
 
 Requirements:
 
