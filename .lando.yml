@@ -1,4 +1,4 @@
-name: nfthack
+name: drupalnftproject
 recipe: drupal9
 services:
   appserver:
@@ -6,3 +6,5 @@ services:
     xdebug: debug
     config:
       php: .vscode/php.ini
+    build_as_root:
+      - apt update && apt upgrade -y && apt install libgmp-dev -y && docker-php-ext-install gmp

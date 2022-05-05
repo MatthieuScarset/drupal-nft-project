@@ -12,8 +12,8 @@ Requirements:
 First, start the beast:
 
 ```bash
-git clone https://github.com/MatthieuScarset/drupal-nft-project.git nfthack
-cd nfthack
+git clone https://github.com/MatthieuScarset/drupal-nft-project.git
+cd drupal-nft-project
 cp .env.example .env
 cp web/sites/example.settings.local.php web/sites/default/settings.local.php
 lando start
@@ -32,7 +32,7 @@ lando drush user-login
 
 Create a page and import some NFTs:
 
-- Go to [Admin > Content > Add content](https://nfthack.lndo.site/node/add/page).
+- Go to [Admin > Content > Add content](https://drupalnftproject.lndo.site/node/add/page).
 - Add media in the field below title
 - Save
 - Enjoy the view...
@@ -42,7 +42,7 @@ Have fun buiDling!
 ## Mint
 
 Set your NFTPort.xyz API key
-[in backoffice (Admin > Config > Media > NFTPort)](https://nfthack.lndo.site/admin/config/nft/nftport):
+[in backoffice (Admin > Config > Media > NFTPort)](https://drupalnftproject.lndo.site/admin/config/nft/nftport):
 
 ```bash
 API Key: 'ENTER-YOUR-KEY'

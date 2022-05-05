@@ -23,14 +23,14 @@
         "cweagans/composer-patches": "^1.7",
         "drupal/core-composer-scaffold": "^9.3",
         "drupal/core-recommended": "^9.0",
-        "drupal/nft": "dev-1.0.x",
+        "drupal/nft": "dev-2.0.x",
         "drupal/nftport": "dev-1.0.x",
         "drupal/oembed_providers": "^2.0",
         "drush/drush": "^10.6",
         "league/commonmark": "^1.0",
-        "sc0vu/web3.php": "dev-master",
         "vlucas/phpdotenv": "^5.1",
         "web3p/ethereum-tx": "dev-master",
+        "web3p/web3.php": "dev-master",
         "webflo/drupal-finder": "^1.2"
     },
     "require-dev": {
@@ -51,7 +51,8 @@
             "composer/installers": true,
             "cweagans/composer-patches": true,
             "drupal/core-composer-scaffold": true,
-            "zaporylie/composer-drupal-optimizations": true
+            "zaporylie/composer-drupal-optimizations": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true
         }
     },
     "autoload": {
